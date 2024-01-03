@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://revivedaniel.github.io/kensingtonroad/sitemap.xml
