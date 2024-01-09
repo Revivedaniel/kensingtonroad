@@ -6,6 +6,7 @@
   <meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model">
   <link rel="icon" type="image/x-icon" href="https://assets.squarespace.com/universal/default-favicon.ico">
   <link rel="canonical" href="https://revivedaniel.github.io/kensingtonroad/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <meta property="og:site_name" content="Ilana Mason">
   <meta property="og:title" content="Ilana Mason">
   <meta property="og:url" content="https://revivedaniel.github.io/kensingtonroad/">
@@ -15,15 +16,17 @@
   <meta name="twitter:title" content="Ilana Mason">
   <meta name="twitter:url" content="https://revivedaniel.github.io/kensingtonroad/">
   <meta name="twitter:card" content="summary">
-  <meta name="description" content="Discover Kensington Road's exclusive range of high-fashion maternity clothing. Designed for first-time mothers and style-conscious pregnant women. Sign up now for exclusive updates!">
+  <meta name="description"
+    content="Discover Kensington Road's exclusive range of high-fashion maternity clothing. Designed for first-time mothers and style-conscious pregnant women. Sign up now for exclusive updates!">
   <!-- keywords -->
-  <meta name="keywords" content="Kensington Road, Kensington Road Maternity, Kensington Road Maternity Fashion, Kensington Road Maternity Clothing, Kensington Road Maternity Clothes, Kensington Road Maternity Wear, Kensington Road Maternity Wear, Kensington Road Maternity Dresses, Kensington Road Maternity Dress, Kensington Road Maternity Pants, Kensington Road Maternity Pant, Kensington Road Maternity Jeans, Kensington Road Maternity Jean, Kensington Road Maternity Skirts, Kensington Road Maternity Skirt, Kensington Road Maternity Tops, Kensington Road Maternity Top, Kensington Road Maternity Shirts, Kensington Road Maternity Shirt, Kensington Road Maternity Blouses, Kensington Road Maternity Blouse, Kensington Road Maternity Sweaters, Kensington Road Maternity Sweater, Kensington Road Maternity Jackets, Kensington Road Maternity Jacket, Kensington Road Maternity Coats, Kensington Road Maternity Coat, Kensington Road Maternity Outerwear, Kensington Road Maternity Outerwear">
+  <meta name="keywords"
+    content="Kensington Road, Kensington Road Maternity, Kensington Road Maternity Fashion, Kensington Road Maternity Clothing, Kensington Road Maternity Clothes, Kensington Road Maternity Wear, Kensington Road Maternity Wear, Kensington Road Maternity Dresses, Kensington Road Maternity Dress, Kensington Road Maternity Pants, Kensington Road Maternity Pant, Kensington Road Maternity Jeans, Kensington Road Maternity Jean, Kensington Road Maternity Skirts, Kensington Road Maternity Skirt, Kensington Road Maternity Tops, Kensington Road Maternity Top, Kensington Road Maternity Shirts, Kensington Road Maternity Shirt, Kensington Road Maternity Blouses, Kensington Road Maternity Blouse, Kensington Road Maternity Sweaters, Kensington Road Maternity Sweater, Kensington Road Maternity Jackets, Kensington Road Maternity Jacket, Kensington Road Maternity Coats, Kensington Road Maternity Coat, Kensington Road Maternity Outerwear, Kensington Road Maternity Outerwear">
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 50px;
-      background-image: url(./assets/imgs/testing.webp);
+      padding: 20px 50px;
+      background-image: url(./assets/imgs/background.webp);
       background-size: cover;
       background-position: center;
       min-height: 100vh;
@@ -31,6 +34,25 @@
       align-items: flex-start;
       justify-content: center;
       flex-direction: column;
+    }
+
+    h1 {
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      pointer-events: auto;
+      text-align: center;
+      font-family: linotype-didot;
+      font-weight: 400;
+      line-height: 1.4em;
+      letter-spacing: 0em;
+      font-size: calc(2 * 1rem);
+      background: 0 0;
+      cursor: pointer;
+      text-decoration: none;
+      opacity: 1;
+      color: white;
+      margin: 0 auto;
     }
 
     body #logo {
@@ -48,14 +70,14 @@
     .container {
       max-width: 600px;
       font-family: linotype-didot;
-      margin-left: 25%;
+      margin: auto;
     }
 
     #coming-soon h2 {
       margin: 2rem 0;
       font-weight: 400;
-      line-height: calc(1.4em * (1 + (1 - 4)/25));
-      font-size: calc((4 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+      line-height: calc(4 * 1rem);
+      font-size: calc(4 * 1rem);
       color: white;
       margin-top: 0;
     }
@@ -65,7 +87,7 @@
       -webkit-font-smoothing: antialiased;
       margin: 1rem 0;
       line-height: 1.8em;
-      font-size: calc((1.5 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+      font-size: calc(1.5 * 1rem);
       color: white;
       word-wrap: break-word;
       margin-bottom: 0;
@@ -74,7 +96,7 @@
     #newsletter-form-container {
       text-align: center;
       box-sizing: border-box;
-      padding: 0 0 1rem 0;
+      padding: 1rem 0;
     }
 
     #newsletter-form-container #newsletter-form-input {
@@ -157,6 +179,23 @@
       box-sizing: border-box;
     }
 
+    #socials-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    #socials-container a {
+      -webkit-font-smoothing: antialiased;
+      font-size: calc(var(--normal-text-size-value) * 1rem);
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      transition: fill 170ms ease-in-out;
+      fill: transparent;
+      text-decoration: none;
+      margin: 0.8em;
+    }
+
     /* Responsive design adjustments */
     @media (max-width: 768px) {
       .container {
@@ -167,12 +206,11 @@
 </head>
 
 <body>
-
   <!-- <img id="jumbotron" src="./assets/imgs/Kensington_Road_Black_White.jpg" alt="">
   <img id="logo" src="./assets/imgs/Logo_Black_White.jpg" alt=""> -->
+  <h1>Kensington Road</h1>
   <div class="container">
     <div id="coming-soon">
-      <h1 style="display: none;">Welcome to Kensington Road - Where Fashion Meets Maternity</h1>
       <h2>Coming Soon</h2>
       <p>Sign up to be notified when our Spring
         Collection lands.</p>
@@ -200,12 +238,31 @@
         </button>
       </div>
 
-
-
     </div>
     <!-- Add social media links here -->
-  </div>
-
+    <div id="socials-container">
+      <a href="" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook"
+          viewBox="0 0 16 16">
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+        </svg>
+      </a>
+      <a href="" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter"
+          viewBox="0 0 16 16">
+          <path
+            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+        </svg>
+      </a>
+      <a href="" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+        </svg>
+      </a>
+    </div>
 
 </body>
 
